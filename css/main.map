@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"body{\n    background-color: black;\n    h1{\n        color: red;\n        span{\n            font-weight: bold;\n        }\n    }\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAO1B;;;AARD,AAEI,IAFA,CAEA,EAAE,CAAA;EACE,KAAK,EAAE,GAAG;CAIb;;;AAPL,AAIQ,IAJJ,CAEA,EAAE,CAEE,IAAI,CAAA;EACA,WAAW,EAAE,IAAI;CACpB"
+}

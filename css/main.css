@@ -1,0 +1,16 @@
+/* line 1, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/main.scss */
+body {
+  background-color: black;
+}
+
+/* line 3, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/main.scss */
+body h1 {
+  color: red;
+}
+
+/* line 5, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/main.scss */
+body h1 span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
