@@ -11,4 +11,15 @@
   }
 }
 
+/* line 2, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_header.scss */
+.s-hero button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

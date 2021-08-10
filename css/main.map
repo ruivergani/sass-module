@@ -5,14 +5,20 @@
 		"../scss/main.scss",
 		"../scss/_reset.scss",
 		"../scss/_responsive.scss",
-		"../scss/_buttons.scss"
+		"../scss/_buttons.scss",
+		"../scss/_header.scss",
+		"../scss/_footer.scss",
+		"../scss/_variables.scss"
 	],
 	"sourcesContent": [
-		"@import 'reset';\n@import 'responsive';\n@import 'buttons';",
+		"@import 'reset';\n@import 'responsive';\n@import 'buttons';\n@import 'header';\n@import 'footer';\n@import 'variables';",
 		"*{\n    margin: 0;\n    padding: 0;\n}",
 		"@media (max-width: 1200px){\n    h1{\n        font-size: 2rem;\n    }\n}",
-		""
+		"",
+		".s-hero{\n    button{\n        background-color: blue;\n        border: none;\n        color: white;\n        padding: 20px;\n        font-size: 20px;\n        border-radius: 5px;\n        margin: 20px;\n    }\n}",
+		"",
+		"// Variables for SASS\n\n$white-color-100: #fff;\n"
 	],
 	"names": [],
-	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACHD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACrB,AAAA,EAAE,CAAA;IACE,SAAS,EAAE,IAAI;GAClB"
+	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACHD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACrB,AAAA,EAAE,CAAA;IACE,SAAS,EAAE,IAAI;GAClB;;;;AEHL,AACI,OADG,CACH,MAAM,CAAA;EACF,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;CACf"
 }
