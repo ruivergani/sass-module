@@ -1,0 +1,9 @@
+// works similiar to the pattern css created in other projects
+@mixin style-btn{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    color: black;
+    font-size: 2rem;
+    border-radius: 5px;
+}
