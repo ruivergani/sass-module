@@ -18,4 +18,14 @@
     color: black;
     font-size: 2rem;
     border-radius: 5px;
+    @include flex-element(center,center,row); //mixin inside another mixin using parameters
+}
+
+// mixin about flexbox
+
+@mixin flex-element($align, $justify, $direction){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
 }
