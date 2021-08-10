@@ -9,9 +9,14 @@
         display: flex;
         align-items: center;
     }
+
+    // responsive queries (just one selector father not individually)
     @include responsive(480px){
         .container{
             flex-direction: column;
         }
     }
+    @include responsive(1200px){}
+    @include responsive(991px){}
+    @include responsive(668px){}
 }

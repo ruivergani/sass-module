@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 480px) {
-  /* line 13, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_home.scss */
+  /* line 15, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_home.scss */
   .s-hero .container {
     flex-direction: column;
   }
