@@ -1,9 +1,3 @@
-body{
-    background-color: black;
-    h1{
-        color: red;
-        span{
-            font-weight: bold;
-        }
-    }
-}
+@import 'reset';
+@import 'responsive';
+@import 'buttons';

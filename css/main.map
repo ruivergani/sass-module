@@ -2,11 +2,17 @@
 	"version": 3,
 	"file": "main.css",
 	"sources": [
-		"../scss/main.scss"
+		"../scss/main.scss",
+		"../scss/_reset.scss",
+		"../scss/_responsive.scss",
+		"../scss/_buttons.scss"
 	],
 	"sourcesContent": [
-		"body{\n    background-color: black;\n    h1{\n        color: red;\n        span{\n            font-weight: bold;\n        }\n    }\n}"
+		"@import 'reset';\n@import 'responsive';\n@import 'buttons';",
+		"*{\n    margin: 0;\n    padding: 0;\n}",
+		"@media (max-width: 1200px){\n    h1{\n        font-size: 2rem;\n    }\n}",
+		""
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAO1B;;;AARD,AAEI,IAFA,CAEA,EAAE,CAAA;EACE,KAAK,EAAE,GAAG;CAIb;;;AAPL,AAIQ,IAJJ,CAEA,EAAE,CAEE,IAAI,CAAA;EACA,WAAW,EAAE,IAAI;CACpB"
+	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACHD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACrB,AAAA,EAAE,CAAA;IACE,SAAS,EAAE,IAAI;GAClB"
 }
