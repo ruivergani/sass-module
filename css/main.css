@@ -1,36 +1,11 @@
-/* line 1, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_reset.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@media (max-width: 1200px) {
-  /* line 2, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_responsive.scss */
-  h1 {
-    font-size: 2rem;
-  }
-}
-
-/* line 2, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_header.scss */
-.s-hero button {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 20px;
-  font-size: 20px;
+/* line 2, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_home.scss */
+.first-section .btn {
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+  color: black;
+  font-size: 2rem;
   border-radius: 5px;
-  margin: 20px;
-  cursor: pointer;
-}
-
-/* line 11, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_header.scss */
-.s-hero button:hover {
-  background-color: red;
-}
-
-/* line 14, ../../../../../Users/ruiverganineto/Desktop/UiBoost/sass-module/scss/_header.scss */
-.s-hero button.active:hover {
-  background-color: yellow;
 }
 
 /*# sourceMappingURL=main.css.map */

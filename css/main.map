@@ -3,24 +3,16 @@
 	"file": "main.css",
 	"sources": [
 		"../scss/main.scss",
-		"../scss/_reset.scss",
-		"../scss/_responsive.scss",
-		"../scss/_buttons.scss",
-		"../scss/_header.scss",
-		"../scss/_footer.scss",
 		"../scss/_variables.scss",
-		"../scss/_mixins.scss"
+		"../scss/_mixins.scss",
+		"../scss/_home.scss"
 	],
 	"sourcesContent": [
-		"@import 'reset';\n@import 'responsive';\n@import 'buttons';\n@import 'header';\n@import 'footer';\n@import 'variables';\n@import 'mixins';\n",
-		"*{\n    margin: 0;\n    padding: 0;\n}",
-		"@media (max-width: 1200px){\n    h1{\n        font-size: 2rem;\n    }\n}",
-		"",
-		".s-hero{\n    button{\n        background-color: blue;\n        border: none;\n        color: white;\n        padding: 20px;\n        font-size: 20px;\n        border-radius: 5px;\n        margin: 20px;\n        cursor: pointer;\n        &:hover{ //into the selector you want to change. \n            background-color: red;\n        }\n        &.active:hover{ // will always put together with the father selector\n            background-color: yellow;\n        }\n    }\n}",
-		"",
+		"@import 'variables';\n@import 'mixins';\n@import 'home';\n\n",
 		"// Variables for SASS\n\n$white-color-100: #fff;\n",
-		"// works similiar to the pattern css created in other projects\n@mixin style-btn{\n    width: 200px;\n    height: 100px;\n    background-color: pink;\n    color: black;\n    font-size: 2rem;\n    border-radius: 5px;\n    border: none;\n}"
+		"// funciona como pattern no codigo\n\n@mixin style-btn { \n    width: 200px;\n    height: 100px;\n    background-color: pink;\n    color: black;\n    font-size: 2rem;\n    border-radius: 5px;\n}\n\n// mixins with argument ",
+		".first-section{\n    .btn{\n       @include style-btn;\n    }\n}"
 	],
 	"names": [],
-	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACHD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACrB,AAAA,EAAE,CAAA;IACE,SAAS,EAAE,IAAI;GAClB;;;;AEHL,AACI,OADG,CACH,MAAM,CAAA;EACF,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,OAAO;CAOlB;;;AAhBL,AAUQ,OAVD,CACH,MAAM,AASD,MAAM,CAAA;EACH,gBAAgB,EAAE,GAAG;CACxB;;;AAZT,AAaQ,OAbD,CACH,MAAM,AAYD,OAAO,AAAA,MAAM,CAAA;EACV,gBAAgB,EAAE,MAAM;CAC3B"
+	"mappings": ";AGAA,AACI,cADU,CACV,IAAI,CAAA;EDEJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;CCLjB"
 }

@@ -1,5 +1,6 @@
-// works similiar to the pattern css created in other projects
-@mixin style-btn{
+// funciona como pattern no codigo
+
+@mixin style-btn { 
     width: 200px;
     height: 100px;
     background-color: pink;
@@ -7,3 +8,5 @@
     font-size: 2rem;
     border-radius: 5px;
 }
+
+// mixins with argument 
