@@ -1,4 +1,4 @@
-// funciona como pattern no codigo
+// works like variable calling more commands
 
 @mixin style-btn { 
     width: 200px;
@@ -22,10 +22,16 @@
 }
 
 // mixin about flexbox
-
 @mixin flex-element($align, $justify, $direction){
     display: flex;
     align-items: $align;
     justify-content: $justify;
     flex-direction: $direction;
+}
+
+// responsive
+@mixin responsive($screen-width){
+    @media(max-width: $screen-width){
+        @content; // will keep the content inside the media querie
+    }
 }

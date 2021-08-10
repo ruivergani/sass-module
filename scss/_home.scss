@@ -3,3 +3,15 @@
        @include style-btn-argument(350px);
     }
 }
+
+.s-hero{   
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    @include responsive(480px){
+        .container{
+            flex-direction: column;
+        }
+    }
+}
