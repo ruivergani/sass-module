@@ -10,9 +10,9 @@
 	"sourcesContent": [
 		"@import 'variables';\n@import 'mixins';\n@import 'home';\n\n",
 		"// Variables for SASS\n\n$white-color-100: #fff;\n",
-		"// funciona como pattern no codigo\n\n@mixin style-btn { \n    width: 200px;\n    height: 100px;\n    background-color: pink;\n    color: black;\n    font-size: 2rem;\n    border-radius: 5px;\n}\n\n// mixins with argument ",
-		".first-section{\n    .btn{\n       @include style-btn;\n    }\n}"
+		"// funciona como pattern no codigo\n\n@mixin style-btn { \n    width: 200px;\n    height: 100px;\n    background-color: pink;\n    color: black;\n    font-size: 2rem;\n    border-radius: 5px;\n}\n\n// mixins with argument\n\n@mixin style-btn-argument($width) { \n    width: $width;\n    height: 100px;\n    background-color: pink;\n    color: black;\n    font-size: 2rem;\n    border-radius: 5px;\n}",
+		".first-section{\n    .btn{\n       @include style-btn-argument(350px);\n    }\n}"
 	],
 	"names": [],
-	"mappings": ";AGAA,AACI,cADU,CACV,IAAI,CAAA;EDEJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;CCLjB"
+	"mappings": ";AGAA,AACI,cADU,CACV,IAAI,CAAA;EDaJ,KAAK,ECZ0B,KAAK;EDapC,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;CChBjB"
 }

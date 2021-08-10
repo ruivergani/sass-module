@@ -9,4 +9,13 @@
     border-radius: 5px;
 }
 
-// mixins with argument 
+// mixins with argument
+
+@mixin style-btn-argument($width) { 
+    width: $width;
+    height: 100px;
+    background-color: pink;
+    color: black;
+    font-size: 2rem;
+    border-radius: 5px;
+}

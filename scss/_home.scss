@@ -1,5 +1,5 @@
 .first-section{
     .btn{
-       @include style-btn;
+       @include style-btn-argument(350px);
     }
 }
